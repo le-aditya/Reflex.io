@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/game_over"
+        android:textColor="@color/game_red"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFinalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Score: 0"
+        android:textColor="@color/text_white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="High Score: 0"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@drawable/bg_button"
+        android:text="@string/play_again"
+        android:textAllCaps="false"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@style/Widget.Material3.Button.UnelevatedButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHome"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/home"
+        android:textAllCaps="false"
+        android:textColor="@color/text_gray"
+        android:textSize="16sp"
+        style="@style/Widget.Material3.Button.TextButton" />
+
+</LinearLayout>

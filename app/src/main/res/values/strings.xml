@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quick Reflex</string>
+    <string name="game_title">Quick Reflex</string>
+    <string name="subtitle">Test Your Reaction Speed</string>
+    <string name="start_game">Start Game</string>
+    <string name="high_score_label">High Score: %1$d</string>
+    <string name="score_label">Score: %1$d</string>
+    <string name="game_over">Game Over</string>
+    <string name="play_again">Play Again</string>
+    <string name="home">Home</string>
+
+    <string name="instructions_title">How to Play</string>
+    <string name="instruction_1">1. Look at the letter in the center.</string>
+    <string name="instruction_2">2. Match the COLOR of the letter.</string>
+    <string name="instruction_3">3. IGNORE the background color of the card.</string>
+    <string name="instruction_4">4. Tap the matching color button below.</string>
+    <string name="instruction_5">5. Be fast! The timer is shrinking.</string>
+    <string name="got_it">Got it!</string>
+</resources>
