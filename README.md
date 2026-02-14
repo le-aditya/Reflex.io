@@ -12,7 +12,4 @@ High score tracking
 
 Fully offline gameplay
 
-📦 APK Download
 
-Download the release APK directly from this repository:
-app-release.apk
